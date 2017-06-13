@@ -1,0 +1,6 @@
+INSERT INTO configuration (name, value) VALUES ('logAlarms', 'true')
+INSERT INTO configuration (name, value) VALUES ('sendEmail', 'false')
+INSERT INTO configuration (name, value) VALUES ('senderEmail', 'alarm@ras.pl')
+INSERT INTO configuration (name, value) VALUES ('receiverEmail', 'alarm@gmail.com')
+INSERT INTO configuration (name, value) VALUES ('emailSubject', 'motion detected')
+INSERT INTO configuration (name, value) VALUES ('picturesPerSecond', '1')

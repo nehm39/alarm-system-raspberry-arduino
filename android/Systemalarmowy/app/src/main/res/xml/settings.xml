@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="settingsGeneralCategory"
+        android:title="@string/settings_category_general" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/settings_log_alarms_key"
+            android:title="@string/settings_log_alarms" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/settings_send_email_key"
+            android:title="@string/settings_send_email" />
+        <ListPreference
+            android:key="@string/settings_pictures_per_second_key"
+            android:title="@string/settings_pictures_per_second"
+            android:dialogTitle="@string/settings_pictures_per_second_dialog"
+            android:entries="@array/settings_pictures_per_second_array"
+            android:entryValues="@array/settings_pictures_per_second_array_values"
+            android:defaultValue="1" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="settingsMailCategory"
+        android:title="@string/settings_category_mail" >
+        <EditTextPreference
+            android:key="@string/settings_sender_mail_key"
+            android:title="@string/settings_sender_mail"
+            android:summary="@string/settings_sender_mail_summary"
+            android:defaultValue="alarm_system@szymongajewski.pl">
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="@string/settings_receiver_mail_key"
+            android:title="@string/settings_receiver_mail"
+            android:summary="@string/settings_receiver_mail_summary"
+            android:defaultValue="raspberry@szymongajewski.pl">
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="@string/settings_mail_subject_key"
+            android:title="@string/settings_mail_subject"
+            android:summary="@string/settings_mail_subject_summary"
+            android:defaultValue="Alarm">
+        </EditTextPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

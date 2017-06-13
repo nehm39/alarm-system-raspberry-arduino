@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">System alarmowy</string>
+    <string name="action_settings">Settings</string>
+    <string name="press_back_to_exit">Naciśnij jeszcze raz aby wyjść</string>
+    <string name="retrofit_error">Wystąpił bład</string>
+    <string name="refresh_progress_dialog_msg">Odświeżanie.</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="deleting_msg">Trwa usuwanie.</string>
+    <string name="delete">Usuń</string>
+    <string name="delete_all">Usuń wszystkie</string>
+
+    <!-- Drawer -->
+    <string name="navigation_drawer_open">Otwórz pasek nawigacji</string>
+    <string name="navigation_drawer_close">Zamknij pasek nawigacji</string>
+    <string name="drawer_option_status">Status systemu</string>
+    <string name="drawer_option_pictures">Zdjęcia</string>
+    <string name="drawer_option_alarms">Alarmy</string>
+    <string name="drawer_option_settings">Ustawienia</string>
+    <string name="drawer_option_logout">Wyloguj</string>
+
+    <!-- Login -->
+    <string name="login_name">Login</string>
+    <string name="password_name">Hasło</string>
+    <string name="ip_adress">IP</string>
+    <string name="log_in">Zaloguj</string>
+    <string name="wrong_credentials">Dane do logowania są niepoprawne</string>
+    <string name="login_error">Wystąpił bład</string>
+    <string name="login_empty_fields">Uzupełnij wszystkie pola</string>
+    <string name="logging_in">Trwa logowanie…</string>
+
+    <!-- Alarms -->
+    <string name="delete_alarm_dialog_title">Usuń alarm</string>
+    <string name="delete_alarm_dialog_msg">Czy na pewno chcesz usunąć wybrany alarm?</string>
+    <string name="delete_alarms_dialog_title">Usuń alarmy</string>
+    <string name="delete_alarms_dialog_msg">Czy na pewno chcesz usunąć wszystkie alarmy?</string>
+
+    <!-- Images -->
+    <string name="delete_image_dialog_title">Usuń zdjęcie</string>
+    <string name="delete_image_dialog_msg">Czy na pewno chcesz usunąć wybrane zdjęcie?</string>
+    <string name="delete_images_dialog_title">Usuń zdjęcia</string>
+    <string name="delete_images_dialog_msg">Czy na pewno chcesz usunąć wszystkie zdjęcia?</string>
+
+    <!-- Status -->
+    <string name="status_working_text">włączony</string>
+    <string name="status_not_working_text">wyłączony</string>
+    <string name="status_refresh">odśwież</string>
+    <string name="system_change_dialog_msg">Trwa wykonywanie polecenia.</string>
+    <string name="status_change_toast">Polecenie zostało pozytywnie wysłane. Wykonanie go może potrwać kilka minut.</string>
+
+    <!-- Settings -->
+    <string name="settings_progress_dialog_msg">Pobieranie konfiguracji.</string>
+    <string name="settings_update_progress_dialog_msg">Aktualizowanie.</string>
+    <string name="settings_category_general">Ustawienia ogólne</string>
+    <string name="settings_log_alarms">Loguj alarmy</string>
+    <string name="settings_send_email">Wysyłaj e-mail o alarmie</string>
+
+    <string name="settings_pictures_per_second">Liczba robionych zdjęć na sekundę</string>
+    <string name="settings_pictures_per_second_dialog">Wybierz</string>
+    <string-array name="settings_pictures_per_second_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="settings_pictures_per_second_array_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="settings_category_mail">Ustawienia e-mail</string>
+    <string name="settings_sender_mail">Adres e-mail nadawcy</string>
+    <string name="settings_sender_mail_summary">Podaj adres e-mail, który zostanie wyświetlony jako nadawca</string>
+    <string name="settings_receiver_mail">Adres e-mail odbiorcy</string>
+    <string name="settings_receiver_mail_summary">Podaj adres e-mail, na który zostanie wysłane powiadomienie</string>
+    <string name="settings_mail_subject">Temat wiadomości e-mail</string>
+    <string name="settings_mail_subject_summary">Podaj temat wysyłanych wiadomości e-mail</string>
+
+    <string name="settings_category_map">Mapa</string>
+    <string name="settings_share_location">Udostępniaj lokalizację</string>
+    <string name="settings_show_on_map">Punkty widoczne na mapie</string>
+    <string name="settings_show_on_map_dialog">Wybierz</string>
+    <string name="settings_map_range">Odległość użytkowników</string>
+    <string name="settings_map_range_dialog">Wybierz</string>
+    <string-array name="settings_show_on_map_array">
+        <item>Wszystko</item>
+        <item>Tylko wydarzenia</item>
+        <item>Tylko użytkownicy</item>
+    </string-array>
+    <string-array name="settings_show_on_map_array_values">
+        <item>all</item>
+        <item>events</item>
+        <item>users</item>
+    </string-array>
+    <string-array name="settings_map_range_array">
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>20 km</item>
+        <item>30 km</item>
+        <item>40 km</item>
+        <item>50 km</item>
+    </string-array>
+    <string-array name="settings_map_range_array_values">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+
+    <!-- Settings values -->
+    <string name="settings_log_alarms_key">settingsLogAlarms</string>
+    <string name="settings_send_email_key">settingsSendMail</string>
+    <string name="settings_pictures_per_second_key">settingsPicturesPerSecond</string>
+    <string name="settings_sender_mail_key">settingsSenderMail</string>
+    <string name="settings_receiver_mail_key">settingsReceiverMail</string>
+    <string name="settings_mail_subject_key">settingsMailSubject</string>
+
+</resources>
